@@ -1,0 +1,115 @@
+Software testing, Software Tester, Web Testing, Manual testing, Manual Tester, Manual Test Engineer, Manual And Automation Test Engineer, Manual Software Test Engineer, Software Test engineering Analyst, Quality assurance, Quality analysis, Test Engineering, 
+
+Automation Testing tools which are used for functional automation:
+
+Katalon: Cross-platform UI and API automated testing
+Selenium: Web automated testing
+Cypress Framework: Web unit, integration and end-to-end testing
+Playwright: Web API and end-to-end testing
+Appium: Mobile UI automated testing
+Rest Assured: Web API testing
+
+Automation Testing tools which are used for non-functional automation:
+
+->Load Runner, provided by HP.
+->JMeter, provided by Apache and it support only java language bcz it is developed by using java language and it is a open source. 
+It is designed to analyse and measure the performance and load functional behaviour of web application and variety of services.
+
+Selenium is not just a single tool but a suite of libraries,which consists of inbuild classes and methods and it is used to automate web based applications..it was developed by jason huggis in 2004.selenium provide integrated tool like testng,junit,cucumber,maven for managing testcases and generating reports. It comprises of four major components which include:
+Selenium Integrated Development Environment (IDE)
+Selenium Remote Control (Now not in use)
+WebDriver
+Selenium Grid 
+`
+1.selenium IDE
+-->Selenium IDE is a record and playback tool. it is distributed as a firefox plugin. so it doesnt work work on chrome and any other browsers.
+-->Selenium IDE has limited scope and the generated test scripts are not very robust and portable.
+
+2. Selenium Remote Control
+Selenium RC is a server(officially deprecated by selenium)allows testers to write automated web application UI test in any of the supported programming languages. it is replaced by selenium webdriver.
+
+3.Selenium WebDriver (Selenium 2) is the successor to Selenium RC and is by far the most important component of Selenium Suite. Selenium WebDriver provides a programming interface to create and execute test cases. Test scripts are written in order to identify web elements on web pages and then desired actions are performed on those elements.
+
+Selenium WebDriver performs much faster as compared to Selenium RC because it makes direct calls to the web browsers. RC on the other hand needs an RC server to interact with the web browser.
+
+Since, WebDriver directly calls the methods of different browsers hence we have separate driver for each browser. Some of the most widely used web drivers include:
+
+Mozilla Firefox Driver (Gecko Driver)
+Google Chrome Driver
+Internet Explorer Driver
+Opera Driver
+Safari Driver
+HTML Unit Driver (a special headless driver)
+
+
+4.Selenium Grid
+Selenium Grid is also an important component of Selenium Suite which allows us to run our tests on different machines against different browsers in parallel. In simple words, we can run our tests simultaneously on different machines running different browsers and operating systems.
+
+TESTNG
+
+TestNG is a very important framework when you are actually developing the framework from scratch level.
+TestNG provides you full control over the test cases and the execution of the test cases. Due to this reason, TestNG is also known as a testing framework.
+Cedric Beust is the developer of a TestNG framework.
+If you want to run a test case A before that as a pre-request you need to run multiple test cases before you begin a test case A. You can set and map with the help of TestNG so that pre-request test cases run first and then only it will trigger a test case A. In such way, you can control the test cases.
+TestNG framework came after Junit, and TestNG framework adds more powerful functionality and easier to use.
+It is an open source automated TestNG framework. In TestNG, NG stands for "Next Generation".
+TestNG framework eliminates the limitations of the older framework by providing more powerful and flexible test cases with help of easy annotations, grouping, sequencing and parametrizing.
+
+
+                                       project management tools
+
+Project management tools are a set of software designed to help project teams to plan a project, track & manage the projects to achieve the defined project goals within the time. 
+
+TEST CASE MANAGEMENT TOOL
+Test case management tools are software applications that help to manage and organize the test cases, test plans, and test execution for software testing and test management. Test case management tools help software testers manage test cases efficiently, reduce manual efforts, and ensure comprehensive test coverage. ex:test rail,test complete,test link
+
+DEFECT TRACKING TOOLS
+Bug tracking is the process of logging and monitoring bugs or errors during software testing. It is also referred to as defect tracking or issue tracking. ex:jira,bugzilla,forbugz,trac.
+
+AGILE PROJECT MANAGEMENT TOOLS
+Agile project management is an iterative approach to managing software development projects that focuses on continuous releases and incorporating customer feedback with every iteration.
+It is used for issue tracking, bug tracking, and project management.FOR EX The Jira dashboard consists of many useful functions and features. This function and features make secure handling of issues,And ALM have a standardized environment that everyone can use to communicate and collaborate.
+EX:jira,ALM(application lifecycle management),fireflink
+
+LIST DOWN THE PROJECT LIFE CYCLE
+initiation, planning, executing, monitoring & controlling, and closing.
+
+JIRA
+JIRA is a software testing tool developed by the Australian Company Atlassian. It is a bug tracking tool that reports all the issues related to your software or mobile apps. The word JIRA comes from the Japanese word, i.e., "Gojira" which means Godzilla.
+
+CI/CD
+CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment.
+EX:GITHUB,JENKINS
+
+MAVEN
+maven is a build tool which is used to automate the build process of java applications.build process is downloading the requirement dependencies,compiling the project source code,executing the unit test cases and packaging the project as a jar file or war file.Instead of this doing this build process manually we can automate by using maven.maven developed by apachie organization and it is a open source and it is developed by using java.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+API
+
+An application programming interface is a way for two or more computer programs to communicate with each other. It is a type of software interface, offering a service to other pieces of software.
+APIs are used to integrate new applications with existing software systems. This increases development speed because each functionality doesn't have to be written from scratch.
+
+gx is a global variable accessible anywhere in the module, ix is an instance variable that could have a unique value for each instance of the object.
+
+Abstraction is used to hide the unwanted data and giving relevant data whereas encapsulation is used for hiding data and code in a single unit to prevent access from outside. d) The real-time example of Abstraction is TV Remote Button whereas the real-time example of Encapsulation is medical medicine
+
+Interface is used to achieve abstraction and it is used to achieve multiple inheritance
+
+Every webpage of the application has a corresponding page class that is responsible for locating the web elements and performing actions on them. Page Object Model is a design pattern that helps create object repositories for the web elements. POM improves code reusability and readability. Multiple test cases can be run on the object repository.
+
+Object Repository is a centralized location where testers can store all the web elements, such as buttons, text boxes, and links, used in the test automation framework
+
+
